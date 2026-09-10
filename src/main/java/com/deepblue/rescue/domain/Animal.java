@@ -49,7 +49,6 @@ public class Animal {
         treatment.setAnimal(this);
     }
 
-    // Getters y Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public String getAnimalCode() { return animalCode; }

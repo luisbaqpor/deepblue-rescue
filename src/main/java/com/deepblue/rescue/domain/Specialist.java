@@ -52,7 +52,6 @@ public class Specialist {
         expertise.getSpecialists().remove(this);
     }
 
-    // Getters y Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public String getProfessionalCode() { return professionalCode; }
