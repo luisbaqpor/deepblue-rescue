@@ -34,6 +34,9 @@ public class Animal {
     @Column(name = "scientific_name", nullable = false, length = 100)
     private String scientificName;
 
+    @Column(name = "tracking_device_code", unique = true, length = 50)
+    private String trackingDeviceCode;
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 20)
     private AnimalSex sex;
@@ -78,5 +81,7 @@ public class Animal {
     public void setMedicalRecord(MedicalRecord medicalRecord) { this.medicalRecord = medicalRecord; }
     public List<Treatment> getTreatments() { return treatments; }
     public void setTreatments(List<Treatment> treatments) { this.treatments = treatments; }
+    public String getTrackingDeviceCode() { return trackingDeviceCode; }
+    public void setTrackingDeviceCode(String trackingDeviceCode) { this.trackingDeviceCode = trackingDeviceCode; }
 
 }
