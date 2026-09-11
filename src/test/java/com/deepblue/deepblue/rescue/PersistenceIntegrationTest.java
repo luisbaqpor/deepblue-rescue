@@ -1,4 +1,4 @@
-package com.deepblue.rescue;
+package com.deepblue.deepblue.rescue;
 
 import com.deepblue.rescue.domain.*;
 import com.deepblue.rescue.repository.*;
