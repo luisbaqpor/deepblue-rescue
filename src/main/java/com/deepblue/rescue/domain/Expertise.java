@@ -1,4 +1,4 @@
-package com.deepblue.deepblue.rescue.domain;
+package com.deepblue.rescue.domain;
 
 import jakarta.persistence.*;
 import java.util.HashSet;
